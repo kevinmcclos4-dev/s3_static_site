@@ -28,7 +28,7 @@ body {
   z-index: 0;
   background-image: radial-gradient(rgba(200, 230, 255, 0.6) 0.8px, transparent 0.8px);
   background-size: 15px 15px;
-  opacity: 0.095;
+  opacity: 0.08;
   animation: subtle-drift 60s linear infinite;
 }
 
@@ -39,6 +39,47 @@ body {
   100% {
     background-position: 100px 100px;
   }
+}
+
+/* === Certifications === */
+.certifications {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cert-title {
+  font-size: 1rem;
+  color: #8ab4f8;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cert-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.cert-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+  text-align: center;
+}
+
+.cert-item img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.cert-item span {
+  font-size: 0.8rem;
+  color: #c9d1d9;
 }
 
 /* === Content Container === */
