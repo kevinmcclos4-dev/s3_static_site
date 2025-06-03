@@ -113,6 +113,15 @@ body {
   margin-bottom: 30px;
 }
 
+.description p {
+  margin-bottom: 0.5em;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
+}
+
+
 .buttons {
   display: flex;
   justify-content: center;
